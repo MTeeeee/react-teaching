@@ -5,12 +5,14 @@
   padding: 15px, 15px;
   margin: 20px;
   width: 250px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  height: 300px;
+  height: 350px;
 }
 
 img {
   width: 200px;
+  margin: auto;
 }

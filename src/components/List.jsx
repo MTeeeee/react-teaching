@@ -2,7 +2,7 @@ import Card from "./Card/Card";
 import hotelList from "../hotelList";
 import styles from "./List.module.css";
 
-function createCard(hotel) {
+function createCard(hotel, i) {
   // der Parameter hotel ist wie eine Variable, welche Werte von der map() funktion bekommt.
   // man kann es sich so vorstellen wie:
   // const hotel =   {
@@ -12,7 +12,12 @@ function createCard(hotel) {
   // }
   return (
     // die Werte aus hotel müssen nun an die Component Card weitergeben werden.
-    <Card title={hotel.title} img={hotel.img} description={hotel.description} />
+    <Card
+      key={hotel.id}
+      title={hotel.title}
+      img={hotel.img}
+      description={hotel.description}
+    />
   );
 }
 

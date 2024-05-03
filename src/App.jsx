@@ -5,16 +5,18 @@ import "./style.css";
 import UpdateObj from "./UpdateObj";
 import UpdateArray from "./UpdateArray";
 import Students from "./Students";
+import Todo from "./Todo";
 
 function App() {
   return (
     <>
-      <Students />
+      <Todo />
+      {/* <Students />
       <UpdateArray />
       <UpdateObj />
       <Header />
       <List />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

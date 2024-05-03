@@ -13,6 +13,7 @@ function UpdateArray() {
 
   return (
     <div>
+      <hr />
       <h1>Update Array</h1>
       <input type="text" placeholder="new Pet" id="userInput" />
       <button onClick={addPet}>add Pet</button>

@@ -4,10 +4,12 @@ import Footer from "./components/Footer/Footer";
 import "./style.css";
 import UpdateObj from "./UpdateObj";
 import UpdateArray from "./UpdateArray";
+import Students from "./Students";
 
 function App() {
   return (
     <>
+      <Students />
       <UpdateArray />
       <UpdateObj />
       <Header />
